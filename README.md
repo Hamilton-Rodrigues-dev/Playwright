@@ -151,7 +151,9 @@ Não perca tempo procurando seletores manualmente. Use o gravador:
 
 Bash
 
-# npx playwright codegen wikipedia.org
+```
+npx playwright codegen wikipedia.org
+```
 
 Uma janela abrirá. Tudo o que você clicar gera código TypeScript pronto para copiar.
 
