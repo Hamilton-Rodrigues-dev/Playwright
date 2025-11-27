@@ -8,14 +8,14 @@ Este guia serve como referência rápida para configurar, criar e executar teste
 
 Se você acabou de clonar este projeto, execute os comandos abaixo no terminal para preparar o ambiente:
 
-# 1. Instalar as dependências do projeto (Node.js)
-
+### 1. Instalar as dependências do projeto (Node.js)
+```
 npm install
-
-# 2. Baixar os binários dos navegadores (Chromium, Firefox, WebKit)
-
+```
+### 2. Baixar os binários dos navegadores (Chromium, Firefox, WebKit)
+```
 npx playwright install
-
+```
 ---
 
 ## 🏃 2. Como Rodar os Testes
@@ -151,7 +151,9 @@ Não perca tempo procurando seletores manualmente. Use o gravador:
 
 Bash
 
-# npx playwright codegen wikipedia.org
+```
+npx playwright codegen wikipedia.org
+```
 
 Uma janela abrirá. Tudo o que você clicar gera código TypeScript pronto para copiar.
 
